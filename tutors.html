@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, rgba(0, 171, 240, 0.8), rgba(225, 246, 255, 0.8));
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(90deg, #36d1dc, #5b86e5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h2 {
+            margin: 0;
+        }
+        .tutors-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .tutors-section h3 {
+            margin-bottom: 50px;
+            font-size: 2em;
+        }
+        .tutor-cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .tutor-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            max-width: 300px;
+        }
+        .tutor-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .tutor-card h4 {
+            margin: 0 0 10px 0;
+        }
+        .tutor-card p {
+            margin: 0;
+            color: gray;
+        }
+        .stars {
+            margin: 10px 0;
+        }
+        .stars i {
+            color: gold;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-top: 20px;
+        }
+        .footer div {
+            text-align: center;
+        }
+        .footer div i {
+            font-size: 30px;
+            color: #5b86e5;
+            display: block;
+            margin: auto;
+        }
+        .footer div p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+
+        p.phrase1{
+            margin-top: 5px;
+        }
+
+       p.phrase2 {
+       margin-top: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Meet Our Tutors</h2>
+        </div>
+        <div class="tutors-section">
+            <h3>USTP Tutors</h3>
+            <div class="tutor-cards">
+                <div class="tutor-card">
+                    <img src="C:\Users\ahzmi\guru-guro\images\pic1.jpg" alt="Tutor 1">
+                    <h4>Yul Jaronilla</h4>
+                    <p>CTC - BS IT</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i> 
+
+                        <p class="phrase1">He is a CITC Scholar Student, Consistent Dean's Lister since First year and is now in his Fourth Year</p>
+                        <p class="phrase2">Willing to teach Machine Designs and Combustion Engineering subjects.</p>
+                    </div>
+                </div>
+                <div class="tutor-card">
+                    <img src="C:\Users\ahzmi\guru-guro\images\pic2.jpg" alt="Tutor 2">
+                    <h4>Fiona Mae Barongot</h4>
+                    <p>CSM - BS Mathematics</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                        <p class="phrase1">He is a CEA Scholar Student, Consistent Dean's Lister and is now on his Third Year taking up Bachelor of Science in Mechanical Engineering</p>
+                        <p class="phrase2">Willing to teach any subjects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <i class="fas fa-home"></i>
+                <p><a href="message.html">Home</a></p>
+            </div>
+            <div>
+                <i class="fas fa-chalkboard-teacher"></i>
+                <p><a href="tutors.html">Tutors</a></p>           
+             </div>
+            <div>
+                <i class="fas fa-calendar-check"></i>
+                <p><a href="appointment.html">Appointment</a></p>           
+             </div>
+            <div>
+                <i class="fas fa-user"></i>
+                <p><a href="profile.html">Profile</a></p>           
+             </div>
+        </div>
+    </div>
+</body>
+</html>
